@@ -43,7 +43,7 @@ function mostraResultado() {
     caixaPerguntas.textContent = "Em 2049...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
-    boataoJogarNovamente.addEventListener()
+    boataoJogarNovamente.addEventListener("click", jogaNovamente());
 }
 
 function jogaNovamente(){
