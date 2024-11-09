@@ -6,7 +6,7 @@ const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
-const boataoJogarNovamente = document.querySelector(".novamente-btn")
+const boataoJogarNovamente = document.querySelector(".novamente-btn");
 
 let atual = 0;
 let perguntaAtual;
@@ -43,11 +43,10 @@ function mostraResultado() {
     caixaPerguntas.textContent = "Em 2049...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
-}
-
 
 }
 
-
-
+function jogaNovamente(){
+    atual = 0;
+}
 mostraPergunta();
