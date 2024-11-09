@@ -44,7 +44,7 @@ function mostraResultado() {
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
     caixaResultado.classList.add("mostrar");
-    boataoJogarNovamente.addEventListener("click", jogaNovamente());
+    boataoJogarNovamente.addEventListener("click", jogaNovamente);
 }
 
 function jogaNovamente(){
